@@ -1,6 +1,51 @@
-/* В этом файле вы опишете значения переменных в разных цветовых схемах.
-Придерживайтесь такого именования классов:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
-*/
+.page.theme-dark {
+    --bg-color: #000;
+    --accent-color: #00CC14;
+    --font-weight-text: 465;
+    --font-weight-title: 785;
+    --text-color: #00CC14;
+    --bg-image: url(../svg/pattern-dark.svg);
+    --name: #00CC14;
+    --border-color: #00CC14;
+    --heart-color: #FF0000;
+}
+
+.page.theme-light {
+    --bg-color: #fff;
+    --accent-color: #000;
+    --font-weight-text: 400; 
+    --font-weight-title: 700;
+    --text-color: #000;
+    --bg-image: url(../svg/pattern-light.svg);
+    --name: #000;
+    --border-color: #000;
+    --heart-color: #FF0000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #000;
+        --accent-color: #00CC14;
+        --font-weight-text: 465;
+        --font-weight-title: 785;
+        --text-color: #00CC14;
+        --bg-image: url(../svg/pattern-dark.svg);
+        --name: #00CC14;
+        --border-color: #00CC14;
+        --heart-color: #FF0000;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color: #fff;
+        --accent-color: #000;
+        --font-weight-text: 400; 
+        --font-weight-title: 700;
+        --text-color: #000;
+        --bg-image: url(../svg/pattern-light.svg);
+        --name: #000;
+        --border-color: #000;
+        --heart-color: #FF0000;
+    }
+}
