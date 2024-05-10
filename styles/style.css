@@ -188,7 +188,7 @@ gap: 49px;
 
 @supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
   .card__image-label {
-    text-stroke: 1px var(--stroke-color);
+    -text-stroke-: 1px var(--stroke-color);
     -webkit-text-stroke: 1px var(--stroke-color);
     text-shadow: none;
   }
@@ -389,4 +389,4 @@ gap: 49px;
       inline-size: 29px;
       block-size: 29px;
   }
-}-webkit-text-stroke
+}
