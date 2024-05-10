@@ -3,10 +3,13 @@
     --accent-font: 'PressStart2P';
     --font-weight-text: 400; 
     --font-weight-title: 700;
-    --bg-color: #fff;
+    --bg-color: #b3b3b3;
+    --bg-card-color: #fff;
     --accent-color: #000;
     --border-color: #000;
-    --bg-image: url(../svg/pattern-light.svg);
     --name: #000;
     --heart-color: #FF0000;
+    --linear-gradient-first:#e7e7e7;
+    --linear-gradient-second:#1a1a1a;
+    --stroke-color: #fff;
 }

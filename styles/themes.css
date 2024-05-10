@@ -4,22 +4,30 @@
     --font-weight-text: 465;
     --font-weight-title: 785;
     --text-color: #00CC14;
-    --bg-image: url(../svg/pattern-dark.svg);
     --name: #00CC14;
     --border-color: #00CC14;
     --heart-color: #FF0000;
+    --linear-gradient-first:#007f0c;
+    --linear-gradient-second:#004306;
+    --bg-card-color: #000;
+    --stroke-color: #000;
+    --mix-blend-color: #00CC14;
 }
 
 .page.theme-light {
-    --bg-color: #fff;
+    --bg-color: #d3d3d3;
     --accent-color: #000;
     --font-weight-text: 400; 
     --font-weight-title: 700;
     --text-color: #000;
-    --bg-image: url(../svg/pattern-light.svg);
     --name: #000;
     --border-color: #000;
     --heart-color: #FF0000;
+    --bg-card-color: #fff;
+    --linear-gradient-first:#e7e7e7;
+    --linear-gradient-second:#1a1a1a;
+    --stroke-color: #fff;
+    --mix-blend-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,23 +37,31 @@
         --font-weight-text: 465;
         --font-weight-title: 785;
         --text-color: #00CC14;
-        --bg-image: url(../svg/pattern-dark.svg);
         --name: #00CC14;
         --border-color: #00CC14;
         --heart-color: #FF0000;
+        --linear-gradient-first:#007f0c;
+        --linear-gradient-second:#004306;
+        --bg-card-color: #000;
+        --stroke-color: #000;
+        --mix-blend-color: #00CC14;
     }
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: #fff;
+        --bg-color: #d3d3d3;
         --accent-color: #000;
         --font-weight-text: 400; 
         --font-weight-title: 700;
         --text-color: #000;
-        --bg-image: url(../svg/pattern-light.svg);
         --name: #000;
         --border-color: #000;
         --heart-color: #FF0000;
+        --bg-card-color: #fff;
+        --linear-gradient-first:#e7e7e7;
+        --linear-gradient-second:#1a1a1a;
+        --stroke-color: #fff;
+        --mix-blend-color: #fff;
     }
 }
