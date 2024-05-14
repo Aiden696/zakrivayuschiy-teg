@@ -7,7 +7,7 @@
     --name: #587246;
     --border-color: #587246;
     --heart-color: #FF0000;
-    --linear-gradient-first:#999950;
+    --linear-gradient-first:#454531;
     --linear-gradient-second:#21421E;
     --bg-card-color: #000;
     --stroke-color: #000;
@@ -33,18 +33,18 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #000;
-        --accent-color: #ff9900;
+        --accent-color: #587246;
         --font-weight-text: 465;
         --font-weight-title: 785;
-        --text-color: #ff9900;
-        --name: #ff9900;
-        --border-color: #ff9900;
+        --text-color: #587246;
+        --name: #587246;
+        --border-color: #587246;
         --heart-color: #FF0000;
-        --linear-gradient-first:#007f0c;
-        --linear-gradient-second:#004306;
+        --linear-gradient-first:#454531;
+        --linear-gradient-second:#21421E;
         --bg-card-color: #000;
         --stroke-color: #000;
-        --mix-blend-color: #ff9900;
+        --mix-blend-color: #587246;
     }
 }
 
