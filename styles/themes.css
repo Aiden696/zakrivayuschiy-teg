@@ -1,17 +1,17 @@
 .page.theme-dark {
     --bg-color: #000;
-    --accent-color: #00CC14;
+    --accent-color: #587246;
     --font-weight-text: 465;
     --font-weight-title: 785;
-    --text-color: #00CC14;
-    --name: #00CC14;
-    --border-color: #00CC14;
+    --text-color: #587246;
+    --name: #587246;
+    --border-color: #587246;
     --heart-color: #FF0000;
-    --linear-gradient-first:#007f0c;
-    --linear-gradient-second:#004306;
+    --linear-gradient-first:#999950;
+    --linear-gradient-second:#21421E;
     --bg-card-color: #000;
     --stroke-color: #000;
-    --mix-blend-color: #00CC14;
+    --mix-blend-color: #587246;
 }
 
 .page.theme-light {
@@ -33,18 +33,18 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #000;
-        --accent-color: #00CC14;
+        --accent-color: #ff9900;
         --font-weight-text: 465;
         --font-weight-title: 785;
-        --text-color: #00CC14;
-        --name: #00CC14;
-        --border-color: #00CC14;
+        --text-color: #ff9900;
+        --name: #ff9900;
+        --border-color: #ff9900;
         --heart-color: #FF0000;
         --linear-gradient-first:#007f0c;
         --linear-gradient-second:#004306;
         --bg-card-color: #000;
         --stroke-color: #000;
-        --mix-blend-color: #00CC14;
+        --mix-blend-color: #ff9900;
     }
 }
 
